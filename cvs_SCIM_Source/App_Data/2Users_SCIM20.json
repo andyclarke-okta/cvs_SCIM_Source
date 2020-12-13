@@ -1,0 +1,95 @@
+{
+  "totalResults": 2,
+  "schemas": [
+    "urn:ietf:params:scim:schemas:core:2.0",
+    "urn:ietf:params:scim:api:messages:2.0:ListResponse"
+  ],
+  "itemsPerPage": 10,
+  "startIndex": 1,
+  "Resources": [
+    {
+      "schemas": [
+        "urn:ietf:params:scim:schemas:core:2.0:User",
+        "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+      ],
+      "id": "258641",
+      "userName": "norman.bates@mailinator.com",
+      "active": true,
+      "name": {
+        "givenName": "Norman",
+        "familyName": "Bates"
+      },
+      "emails": [
+        {
+          "value": "norman.bates@mailinator.com",
+          "primary": true
+        }
+      ],
+      "displayName": "norman bates",
+      "phoneNumbers": [
+        {
+          "primary": true,
+          "value": "4195551212",
+          "type": "work"
+        }
+      ],
+      "addresses": [
+        {
+          "primary": true,
+          "country": "US"
+        }
+      ],
+      "groups": [
+
+      ],
+      "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+        "birth_date": "1961-05-23",
+        "gender": "F",
+        "hire_date": "1994-12-02",
+        "costCenter": "Engineering"
+      }
+    },
+    {
+      "schemas": [
+        "urn:ietf:params:scim:schemas:core:2.0:User",
+        "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+      ],
+      "id": "258005",
+      "userName": "jack.ripper@mailinator.com",
+      "active": true,
+      "name": {
+        "givenName": "Jack",
+        "familyName": "Ripper"
+      },
+      "emails": [
+        {
+          "value": "jack.ripper@mailinator.com",
+          "primary": true
+        }
+      ],
+      "displayName": "jack ripper",
+      "phoneNumbers": [
+        {
+          "primary": true,
+          "value": "419-555-1313",
+          "type": "work"
+        }
+      ],
+      "addresses": [
+        {
+          "primary": true,
+          "country": "US"
+        }
+      ],
+      "groups": [
+
+      ],
+      "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+        "birth_date": "1961-05-23",
+        "gender": "F",
+        "hire_date": "1994-12-02",
+        "costCenter": "Sales"
+      }
+    }
+  ]
+}
